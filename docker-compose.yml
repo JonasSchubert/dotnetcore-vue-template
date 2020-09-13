@@ -1,0 +1,15 @@
+version: '3.0'
+
+services:
+  app:
+    image: dotnetcore-vue-template
+    restart: unless-stopped
+    build:
+      context: .
+    ports:
+      - "8080:80"
+    healthcheck:
+      test: curl --silent --fail http://localhost:80/health || exit 1
+      interval: 15s
+      timeout: 15s
+      retries: 3

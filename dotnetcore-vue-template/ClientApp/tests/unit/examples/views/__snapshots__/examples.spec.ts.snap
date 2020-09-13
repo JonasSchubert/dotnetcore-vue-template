@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Examples computed headers should not change unexpected 1`] = `
+Array [
+  Object {
+    "sortable": false,
+    "text": "Id",
+    "value": "id",
+  },
+  Object {
+    "sortable": true,
+    "text": "Value",
+    "value": "value",
+  },
+  Object {
+    "sortable": true,
+    "text": "Added on",
+    "value": "dateTimeAdded",
+  },
+  Object {
+    "sortable": true,
+    "text": "Updated on",
+    "value": "dateTimeUpdated",
+  },
+  Object {
+    "sortable": false,
+    "text": "",
+    "value": "actions",
+  },
+]
+`;
