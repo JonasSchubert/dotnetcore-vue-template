@@ -4,7 +4,6 @@ node_modules
 /dist
 /libs
 /src/libs
-package-lock.json
 
 /tests/e2e/videos/
 /tests/e2e/screenshots/

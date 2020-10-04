@@ -1,7 +1,7 @@
 # .Net Core Vue Template - Frontend
 
 [![VueJs](https://img.shields.io/badge/Frontend-VueJs-green.svg)](https://vuejs.org/)
-[![Version](https://img.shields.io/badge/Version-20.09.13--0-blue.svg)](./src/)
+[![Version](https://img.shields.io/badge/Version-20.10.04--0-blue.svg)](./src/)
 
 [![Statements](https://img.shields.io/badge/Statements-97.62%25-green.svg)](./tests/unit/)
 [![Branch](https://img.shields.io/badge/Branch-100%25-green.svg)](./tests/unit/)

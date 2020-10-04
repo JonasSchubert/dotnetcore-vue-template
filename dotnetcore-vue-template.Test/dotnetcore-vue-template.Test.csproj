@@ -6,7 +6,7 @@
 
     <IsPackable>false</IsPackable>
 
-    <Version>20.09.13.0</Version>
+    <Version>20.10.04.0</Version>
 
     <Company>guepardoapps</Company>
 
@@ -14,15 +14,15 @@
 
     <Product>i18n-service</Product>
 
-    <AssemblyVersion>20.09.13.0</AssemblyVersion>
+    <AssemblyVersion>20.10.04.0</AssemblyVersion>
 
-    <FileVersion>20.09.13.0</FileVersion>
+    <FileVersion>20.10.04.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Autofac" Version="5.2.0" />
-    <PackageReference Include="Autofac.Configuration" Version="5.1.0" />
-    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="Autofac" Version="6.0.0" />
+    <PackageReference Include="Autofac.Configuration" Version="6.0.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.0.1" />
     <PackageReference Include="AutoMapper" Version="10.0.0" />
     <PackageReference Include="coverlet.msbuild" Version="2.9.0">
       <PrivateAssets>all</PrivateAssets>
@@ -31,7 +31,7 @@
     <PackageReference Include="FluentAssertions" Version="5.10.3" />
     <PackageReference Include="FluentTimeSpan" Version="0.5.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.7.1" />
-    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.1.2" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.2.2" />
     <PackageReference Include="xunit" Version="2.4.1" />
     <PackageReference Include="xunit.analyzers" Version="0.10.0" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
